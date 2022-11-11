@@ -6,38 +6,22 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/tvTemperature"
+        android:id="@+id/tvWind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="WeatherScreen"
+        android:text="WindScreen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnMain"
+        android:id="@+id/btnWeatherBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="72dp"
         android:text="Вернуться"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/btnWind"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="Показать ветер"
-        app:layout_constraintBottom_toTopOf="@+id/btnMain"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTemperature"
-        app:layout_constraintVertical_bias="0.896"
-        tools:ignore="MissingConstraints" />
-
+        app:layout_constraintTop_toBottomOf="@+id/tvWind" />
 </androidx.constraintlayout.widget.ConstraintLayout>

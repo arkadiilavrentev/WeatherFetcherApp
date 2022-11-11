@@ -1,7 +1,7 @@
 package com.example.weatherfetcherapp
 
 class WeatherPresenter {
-    fun getWeather(temperature: String) :String{
+    fun getTemperature(temperature: String) :String{
         return temperature
     }
 }

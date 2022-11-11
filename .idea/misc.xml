@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/WeatherFetcherApp/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
-        <entry key="..\:/Android/WeatherFetcherApp/app/src/main/res/layout/activity_weather.xml" value="0.33" />
+        <entry key="..\:/Android/WeatherFetcherApp/app/src/main/res/layout/activity_main.xml" value="0.24954710144927536" />
+        <entry key="..\:/Android/WeatherFetcherApp/app/src/main/res/layout/activity_weather.xml" value="0.24954710144927536" />
+        <entry key="..\:/Android/WeatherFetcherApp/app/src/main/res/layout/activity_wind.xml" value="0.17831813576494426" />
       </map>
     </option>
   </component>
@@ -13,12 +14,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.18802083333333333" />
-      </ProjectState>
-    </option>
   </component>
 </project>
